@@ -4,8 +4,8 @@ import os
 import sys
 
 # Sicherstellen, dass der Pfad zu den Modulen im sys.path enthalten ist
-if r"C:\Users\CR\Game-of-Life\modules" not in sys.path:
-    sys.path.append(r"C:\Users\CR\Game-of-Life\modules")
+if r"C:\Users\CR\Game\modules" not in sys.path:
+    sys.path.append(r"C:\Users\CR\Game\modules")
 from ruleset import Ruleset
 
 def test_parse_rules():
